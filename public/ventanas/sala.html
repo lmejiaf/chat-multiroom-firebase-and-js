@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/sala.css">
+
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/sala.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="info-sala__wrapper">
+        <h1 id="nombreSala" class="info-sala__nombre-sala">nombre de la sala</h1>
+        <h2 id="creador" class="info-sala__creador">creador de la sala</h2>
+    </div>
+    <div class="chat__wrapper">
+        <div class="chat__box">
+
+            <ul id= "lista-usuarios" class="chat__lista-usuarios">
+               
+                
+            </ul>
+            <button class="chat__btn">Ready!</button>
+            <button onClick="salirsala()" class="chat__btn">salir de la sala</button>
+
+        </div>
+        <div class="chat__messages">
+            <div id="contenedor-mensajes" class="messages__container"></div>
+            <textarea required class="chat__messages-text" id="mensaje" cols="30" rows="4"></textarea>
+            <button onClick="sendMessage()" class="chat__btn chat__btn-size">Enviar</button>
+            
+        </div>
+    </div>
+    
+</body>
+
+</html>

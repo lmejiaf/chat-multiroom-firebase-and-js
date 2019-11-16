@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/animacionFondo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <div class="opciones__wrapper">
+        <h1 class="opciones__wrapper__title">WORD WAR</h1>
+
+        <div class="opciones__wrapper__box">
+            
+            <button onClick="pasarunir()" class="opciones__box__btnOpcion">Unirse a sala</button>
+            <button onClick="pasarcrear()" class="opciones__box__btnOpcion">Crear nueva sala</button>
+
+        </div>
+        <button onClick="salir()" class="opciones__wrapper__btn-close-session">Salir</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/dashboard.js"></script>
+</body>
+
+</html>

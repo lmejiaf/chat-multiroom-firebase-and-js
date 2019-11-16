@@ -1,0 +1,16 @@
+{
+  "name": "wordwar",
+  "version": "1.0.0",
+  "description": "Guerra de palabras",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.3.0",
+    "nodemon": "^1.19.4"
+  }
+}

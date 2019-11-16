@@ -1,0 +1,99 @@
+*{margin:0px;padding:0px; }
+html {
+    height: 100%;
+    background: -webkit-radial-gradient(bottom, ellipse, #1b2735 0%, #090a0f 100%);
+    background: -o-radial-gradient(bottom, ellipse, #1b2735 0%, #090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+  }
+.formulario-registro__wrapper{
+    position: absolute;
+    width:50%;
+    height:300px;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    background: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;border-radius: 20px;
+    
+}
+.formulario-registro__wrapper__box{
+    background: inherit;
+    height:200px;
+    border-radius: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    width:80%;
+    
+}
+.formulario-registro__box__inputs{
+    height:120px;
+    width: 80%;
+    background:red;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    padding-top:12px;
+    border-radius:10px;
+}
+.formulario-registro__box__buttons{
+   
+    position:absolute;
+    width:100%;
+    bottom:9%
+}
+.formulario-registro__buttons__btn{
+    display:inline-block;
+    width: 40%;
+    height:30px;
+    position: relative;
+    font-size: 15pt;
+    letter-spacing: 2pt;
+    border:1px;
+    border-radius:2px;
+    outline-color: yellow;
+    outline-style: dotted;
+    margin-bottom:1%;
+    margin-left:6.5%;
+    background: yellowgreen;
+}
+.formulario-registro__inputs__input{
+    display:block;
+    width:80%;
+    height:35px;
+    margin-top:10px;
+    position:relative;
+    left:10%;
+    border:1px;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 2pt;
+    text-align: center;
+}
+.formulario-registro__wrapper__title{
+    display:block;
+    width:100%;
+    text-align: center;
+    letter-spacing: 5pt;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    top:3%;
+    background:red;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
